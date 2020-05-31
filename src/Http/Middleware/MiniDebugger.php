@@ -36,7 +36,9 @@ class MiniDebugger
         $requestMethod = $request->method();
 
         Log::info("Method: ". $requestMethod. ' - URL: '. $requestUrl. " - Queries Executed: $countQueries - Response Time: $responseTime");
-        Log::info($queries);
+        if ($countQueries) {
+            Log::info($queries);
+        }
       
         return $response;
     }
