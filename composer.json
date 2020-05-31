@@ -1,6 +1,6 @@
 {
-    "name": "gentritabazi01/laravel-response-control",
-    "description": "Response control for Laravel/Lumen 5 and up.",
+    "name": "gentritabazi01/laravel-mini-debugger",
+    "description": "Laravel mini debugger",
     "homepage": "https://github.com/gentritabazi01/laravel-response-control",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Gentritabazi01\\LaravelResponseControl\\": "src/"
+            "Gentritabazi01\\MiniDebugger\\": "src/"
         }
     },
     "require": {
@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gentritabazi01\\LaravelResponseControl\\Providers\\ResponseControlProvider"
+                "Gentritabazi01\\MiniDebugger\\Providers\\MiniDebuggerProvider"
             ]
         }
     },
