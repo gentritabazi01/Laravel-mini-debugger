@@ -1,0 +1,32 @@
+{
+    "name": "gentritabazi01/laravel-response-control",
+    "description": "Response control for Laravel/Lumen 5 and up.",
+    "homepage": "https://github.com/gentritabazi01/laravel-response-control",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gentrit Abazi",
+            "email": "gentritabazi01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gentritabazi01\\LaravelResponseControl\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gentritabazi01\\LaravelResponseControl\\Providers\\ResponseControlProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
