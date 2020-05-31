@@ -2,8 +2,8 @@
 **Laravel-mini-debugger** offers you to debug:
 * HTTP request method name.
 * How many queries are executed.
-* Which queries are executed.
-* Detect execution time (for complete response, also for every query).
+* Executed Queries.
+* Execution time (for complete response, also for every query).
 
 ### Screenshot
 This is what will appear in a log file:
