@@ -1,5 +1,5 @@
 ### Introduction
-**Laravel-mini-debugger** offers you to debug:
+**Laravel mini debugger** offers you to debug:
 * HTTP request method name.
 * How many queries are executed.
 * Executed Queries.
