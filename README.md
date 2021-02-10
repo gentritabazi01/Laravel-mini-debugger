@@ -1,5 +1,5 @@
 ### Introduction
-**Laravel mini logger** offers you to debug:
+**Laravel mini logger** offers you to log/debug:
 * HTTP request method name.
 * How many queries are executed.
 * Executed Queries.
