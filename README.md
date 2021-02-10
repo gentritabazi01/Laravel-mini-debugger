@@ -9,17 +9,12 @@
 This is what will appear in a log file:
 ![ScreenShot](https://i.imgur.com/XFGcLHH.png)
 
-### Installation Laravel
-* composer require gentritabazi01/laravel-mini-debugger
-* Open **Kernel.php** file and in variable **protected $middleware** add class **\Gentritabazi01\MiniDebugger\Http\Middleware\MiniDebugger::class**.
-
-### Installation Lumen
-* composer require gentritabazi01/laravel-mini-debugger
-* Open **bootstrap/app.php** file and in **$app->middleware([** add class **\Gentritabazi01\MiniDebugger\Http\Middleware\MiniDebugger::class**.
-* Open **bootstrap/app.php** file and Register Service Provider **$app->register(Gentritabazi01\MiniDebugger\Providers\MiniDebuggerProvider::class);**.
+### Installation
+* composer require gentritabazi01/laravel-mini-logger.
+* Register Middleware MiniLogger (GentritAbazi\MiniLogger\Middlewares\MiniLogger) in **Kernel.php** file.
 
 ### Configuration
-You can configure package in **config/mini-debugger.php** by using **php artisan vendor:publish**.
+You can configure package in **config/mini-logger.php** by using **php artisan vendor:publish**.
 
 ### Author
 * Name: **Gentrit Abazi**
