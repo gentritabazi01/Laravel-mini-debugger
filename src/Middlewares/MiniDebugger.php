@@ -1,13 +1,13 @@
 <?php
 
-namespace Gentritabazi01\MiniDebugger\Http\Middleware;
+namespace GentritAbazi\MiniLogger\Middlewares;
 
 use Closure;
-use DB;
 use Illuminate\Http\Request;
-use Log;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
-class MiniDebugger
+class MiniLogger
 {
     /**
      * Handle an incoming request.

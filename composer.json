@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GentritAbazi\\MiniLogger\\Providers\\MiniLoggerProvider"
+                "GentritAbazi\\MiniLogger\\Providers\\MiniDebuggerServiceProvider"
             ]
         }
     },

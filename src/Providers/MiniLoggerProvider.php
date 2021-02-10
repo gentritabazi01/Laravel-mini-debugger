@@ -4,7 +4,7 @@ namespace Gentritabazi01\MiniDebugger\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class MiniDebuggerProvider extends ServiceProvider
+class MiniDebuggerServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
