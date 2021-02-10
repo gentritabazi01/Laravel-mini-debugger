@@ -1,6 +1,6 @@
 <?php
 
-namespace Gentritabazi01\MiniDebugger\Providers;
+namespace GentritAbazi\MiniLogger\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
