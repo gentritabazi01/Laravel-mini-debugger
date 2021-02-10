@@ -1,7 +1,7 @@
 {
-    "name": "gentritabazi01/laravel-mini-debugger",
-    "description": "Laravel mini debugger",
-    "homepage": "https://github.com/gentritabazi01/laravel-response-control",
+    "name": "gentritabazi01/laravel-mini-logger",
+    "description": "Laravel mini logger",
+    "homepage": "https://github.com/gentritabazi01/Laravel-mini-logger",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Gentritabazi01\\MiniDebugger\\": "src/"
+            "GentritAbazi\\MiniLogger\\": "src/"
         }
     },
     "require": {
@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gentritabazi01\\MiniDebugger\\Providers\\MiniDebuggerProvider"
+                "GentritAbazi\\MiniLogger\\Providers\\MiniLoggerProvider"
             ]
         }
     },
