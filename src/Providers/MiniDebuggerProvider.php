@@ -14,7 +14,7 @@ class MiniDebuggerProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__).'/Config/mini-debugger.php',
+            dirname(__DIR__).'/Config/mini-logger.php',
             'mini-debugger'
         );
     }
@@ -28,7 +28,7 @@ class MiniDebuggerProvider extends ServiceProvider
     {
         if (function_exists('config_path')) {
             $this->publishes([
-                __DIR__.'/../Config/mini-debugger.php' => config_path('mini-debugger.php'),
+                __DIR__.'/../Config/mini-logger.php' => config_path('mini-logger.php'),
             ], 'config');
         }
     }
